@@ -1,5 +1,7 @@
 # Project 1 - Tic-Tac-Toe
 
+Try my Demo - https://denis2105.github.io/Project-1-Tic-Tac-Toe/
+
 ##A very simple , minimalistic designed Tic-Tac-Toe game##
 
 1. I used Atom to prepare my HTML , JavaScript and CSS files.
@@ -23,14 +25,14 @@
                               [Box1, Box5, Box9],
                               [Box3, Box5, Box7],
                               ];
-  
+
   *For Loop was planned but i got too confused with strategy:
-  
+
         for(var i = 0; i < winningCombos.length; i++) {
          if (winningCombos[i][0] != '' &&
              winningCombos[i][1] != '' &&
              winningCombos[i][2] != '') {
-             
+
            if (winningCombos[i][0] === winningCombos[i][1] && winningCombos[i][0] === winningCombos[i][2] && winningCombos[i][1] === winningCombos[i][2]) {
              console.log('fuck yeah');
            }
